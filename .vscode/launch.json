@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LineCount}",
+            "name": "Debug LineCount",
+            "program": "${workspaceFolder:LineCount}/.build/debug/LineCount",
+            "preLaunchTask": "swift: Build Debug LineCount"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LineCount}",
+            "name": "Release LineCount",
+            "program": "${workspaceFolder:LineCount}/.build/release/LineCount",
+            "preLaunchTask": "swift: Build Release LineCount"
+        }
+    ]
+}

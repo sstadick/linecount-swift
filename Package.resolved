@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "c8ed701b513cf5177118a175d85fbbbcd707ab41",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swiftio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sstadick/SwiftIO.git",
+      "state" : {
+        "revision" : "623b8e9581afbf41816d64c1dd3f7131ea7fc053",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}
